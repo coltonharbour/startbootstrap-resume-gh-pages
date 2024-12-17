@@ -1,0 +1,70 @@
+/* General Body Styling */
+body {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    background-color: #e0ffe0;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style-type: none;
+    background-color: #66cc66;
+    padding: 15px;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #003300;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Section Div Styling */
+#about, #destinations, #gallery, #video, #graph {
+    padding: 15px;
+    margin: 15px auto;
+    width: 90%;
+    background-color: #ffffcc;
+    border: 2px dotted #66cc66;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Font Styling */
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #336633;
+}
+
+p {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    line-height: 1.8;
+}
+
+/* Image Gallery Styling */
+.gallery-img {
+    width: 40%;
+    margin: 5%;
+    border: 5px solid #ffcc66;
+    display: inline-block;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #66cc66;
+    color: #003300;
+    font-size: 14px;
+}
